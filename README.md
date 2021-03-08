@@ -82,7 +82,7 @@ Change in Transaction Count (Q4 over Q1). <br />
 - Avg_Utilization_Ratio -float. <br />
 Average Card Utilization Ratio. <br />
 
-#the followinf columns can be omitted. <br />
+#the following columns can be omitted. <br />
 
 - Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1. <br />
 Naive Bayes. <br />
