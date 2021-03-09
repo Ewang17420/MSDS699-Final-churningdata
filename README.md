@@ -3,7 +3,7 @@
 
 This is a project for building a ML model to predict churning customer from a bank dataset.
 
-## data set description
+## Data set description
 
 source: https://www.kaggle.com/sakshigoyal7/credit-card-customers <br />
 Here is the description from the Kaggle owner:  
@@ -15,7 +15,7 @@ Now, this dataset consists of 10,000 customers mentioning their age, salary, mar
 
 We have only 16.07% of customers who have churned. Thus, it's a bit difficult to train our model to predict churning customers."  
 
-## feature description
+## Feature description
 
 There are 23 columns in our dataset, 1 is for label, and other 22 is for features.  <br />
 
@@ -98,6 +98,6 @@ Then from the data visualiztion, we can find out that this is an imbalanced data
 So after preprocessing I decided to use PCA to reduce dimension of the dataset and SMOTE to resampling.
 Last, random search can help us to find the best model and it's hyperparameters to fit the data.
 
-## result summary
+## Result summary
 
 After running the pipeline, the Gradient Boosting Classfier is the best model and the accuracy can reach 0.95.
